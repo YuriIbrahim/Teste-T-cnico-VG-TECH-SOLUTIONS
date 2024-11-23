@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tela de Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <!-- Logo no canto superior esquerdo -->
+   <div class="logo-triangle">
+    <img src="http://pluspng.com/img-png/triangle-png-triangle-png-free-download-1358.png" alt="Logo" class="logo">
+  </div>
+    <!-- Container Principal: Contém as duas seções (esquerda e direita) -->
+  <div class="container">
+    
+    <!-- Lado Esquerdo: Exibe a imagem de fundo e o título -->
+    <div class="left-section">
+      <!-- Título sobre a imagem -->
+      <h1 class="welcome-title">Bem-vindo <br> de volta!</h1>
+      <img src="https://images.alphacoders.com/104/1049857.jpg" alt="Imagem montanha">
+    </div>
+  
+    <!-- Lado Direito: Contém o formulário de login e outros elementos -->
+    <div class="right-section">
+      
+      <!-- Menu de Navegação -->
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Serviço</a></li>
+          <li><a href="#">Contato</a></li>
+          <li><a href="#">Sobre nós</a></li>
+        </ul>
+      </nav>
+
+      <!-- Título do formulário -->
+      <h2>Login</h2>
+      
+      <!-- Formulário de Login -->
+      <form>        
+        <!-- Campo para inserir o email -->
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter your email" required>
+        
+        <!-- Campo para inserir a senha -->
+        <label for="password">Senha</label>
+        <input type="password" id="password" placeholder="Enter your password" required>
+        
+        <!-- Link para recuperação de senha -->
+        <div class="forgot-password">
+            <a href="#">Esqueceu a senha?</a>
+        </div>         
+        
+        <!-- Botão para enviar o formulário -->
+        <button type="submit" class="login-button">Entrar</button>
+
+        <!-- Título para login social -->
+        <p class="social-login-title">Entrar com</p>
+        
+        <!-- Botões para login com redes sociais -->
+        <div class="social-login">
+          <!-- Botão para login com Google -->
+          <button class="social-button google">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/800px-Google_%22G%22_logo.svg.png" alt="Google Logo"> Google
+          </button>
+          
+          <!-- Botão para login com Outlook -->
+          <button class="social-button outlook">
+            <img src="https://logospng.org/download/microsoft-outlook/logo-microsoft-outlook-1024.png" alt="Outlook Logo"> Outlook
+          </button>
+        </div>
+        
+      </form>
+
+      <!-- Link para criar uma nova conta -->
+      <p class="create-account">
+        Não tem conta? <a href="#">Criar conta</a>
+      </p>
+    </div>
+  </div>
+</body>
+</html>
